@@ -46,6 +46,9 @@ div {
     padding-right: 8px;
 
 }
+.links-toggle {
+    color: white;
+}
 .link {
     padding: 10px;
 }
@@ -78,6 +81,9 @@ h2 {
     font-style: normal;
 
 }
+.lorem-toggle {
+    color: white;
+}
 .text{
     margin-top: 0;
     font-size: 50px;
@@ -94,9 +100,6 @@ button {
     padding: 15px;
     margin-top: 10px;
 }
-footer {
-    margin-top: 8em;
-}
 strong {
     color: #00704A;
     font-size: 80px;
@@ -106,13 +109,24 @@ strong {
     padding: 10px;
 }
 .cup { 
-    height: 450px;
+    height: 500px;
     width: 450px;
 }
 .right {
     padding: 10px;
     text-align: right;
     
+}
+footer {
+    margin-top: 8em;
+}
+.icon {
+    padding: 10px;
+}
+.icons {
+    display: inline;
+    margin-right: 18px;
+    font-size: 25px;
 }
 /* For mobile phones: */
 [class*="col-"] {
