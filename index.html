@@ -9,18 +9,21 @@
     <title>Document</title>
 </head>
 <body>
-  <div class="row space">
+  <div class="row space topnav">
       <div class="logos col-8 col-s-6">
          <img src="starbucks.png" alt="starbucks logo" class="logo">
       </div>
     
-    <div class="link col-4 col-s-6">
+    <div class="link col-4 col-s-6" id="myLinks">
      <h6 class="links" id="a">Home</h6>
      <h6 class="links" id="b">Menu</h6>
-     <h6 class="links"id="c">What's New</h6>
-     <h6 class="links"id="d">Contact</h6>
+     <h6 class="links" id="c">What's New</h6>
+     <h6 class="links" id="d">Contact</h6>
      <p id="toggle-theme" class="links" onclick="myFunction()"><i class="far fa-moon" id="moon"></i> </p>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+      <i class="fa fa-bars"></i> </a>
   </div>
 
 
@@ -40,7 +43,7 @@
     
     
      <footer>
-    <div class="icon">
+    <div class="Icon">
       <p class="icons"><i class="fab fa-facebook-f" id="fbk"></i></p> 
       <p class="icons"><i class="fab fa-twitter" id="twt"></i></p>
       <p class="icons"><i class="fab fa-instagram" id="ig"></i></p>
