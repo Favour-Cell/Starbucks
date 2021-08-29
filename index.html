@@ -15,23 +15,23 @@
       </div>
     
     <div class="link col-4 col-s-6">
-     <h6 class="links">Home</h6>
-     <h6 class="links">Menu</h6>
-     <h6 class="links">What's New</h6>
-     <h6 class="links">Contact</h6>
-     <p class="links" onclick="myFunction()"><i class="far fa-moon"></i> </p>
+     <h6 class="links" id="a">Home</h6>
+     <h6 class="links" id="b">Menu</h6>
+     <h6 class="links"id="c">What's New</h6>
+     <h6 class="links"id="d">Contact</h6>
+     <p id="toggle-theme" class="links" onclick="myFunction()"><i class="far fa-moon" id="moon"></i> </p>
     </div>
   </div>
 
 
    <div class="body row">
      <div class="left col-6 col-s-6">
-       <div class="text">
+       <div class="text" id="lorems">
           <h2><p>It's not just coffee</p></h2>
           <h2><p>It's <strong>Starbucks</strong></p></h2>
        </div> 
        <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum suscipit natus magnam maiores ducimus minima incidunt officiis dolores omnis, magni eligendi dolor quis voluptate ipsum quisquam nisi amet, voluptas vel.</p>
-       <button>Learn More</button>
+       <button class="learn">Learn More</button>
      </div>
      <div class="right col-6 col-s-6">
       <img src="cup-removebg-preview.png" alt="cup" class="cup">
@@ -41,9 +41,10 @@
     
      <footer>
     <div class="icon">
-      <p class="links icons"><i class="fab fa-facebook-f"></i></p> 
-      <p class="links icons"></p><i class="fab fa-twitter"></i></p>
-      <p class="links icons"><i class="fab fa-instagram"></i></p>
+      <p class="icons"><i class="fab fa-facebook-f" id="fbk"></i></p> 
+      <p class="icons"><i class="fab fa-twitter" id="twt"></i></p>
+      <p class="icons"><i class="fab fa-instagram" id="ig"></i></p>
+     
     </div>
     </footer>
     <script type="text/javascript" src="star.js"></script>
