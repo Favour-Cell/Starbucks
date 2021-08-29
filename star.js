@@ -1,14 +1,6 @@
-var toggle = document.getElementById("toggle-theme");
-var body = document.querySelector("body");
-var moon = document.getElementsByClassName("far");
- 
-function dark() {
-    body.className = "body-toggle";
-    moon.className = "far-toggle";
-}
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("body-toggle");
+  }
 
-
-toggle.addEventListener("click", function()  {
-        dark().toggle
-})
 
